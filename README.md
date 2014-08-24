@@ -1,5 +1,5 @@
-Objectives of this project described in https://class.coursera.org/getdata-
-006/human_grading/view/courses/972584/assessments/3/submissions.
+Objectives of this project described in 
+https://class.coursera.org/getdata-06/human_grading/view/courses/972584/assessments/3/submissions
 
 Script run_analysis.R: 
 * merge trainig and test data in dataframe named "data"
