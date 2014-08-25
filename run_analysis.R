@@ -67,7 +67,7 @@ sqlFieldList<-""
 
 for(row in 1:nrow(filtered_features))
 {
-    sqlFieldList<-paste0(sqlFieldList, ", V", filtered_features$ID[row])
+    sqlFieldList<-paste0(sqlFieldList, ", avg(V", filtered_features$ID[row],")")
 }
 sql<-paste0("
     select activity_labels.ActivityLabel, data.SubjectID",
